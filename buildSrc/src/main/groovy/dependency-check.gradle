@@ -1,0 +1,9 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    classpath 'org.owasp.dependency-check-gradle:8.2.1'
+}
+
+apply plugin: 'org.owasp.dependency-check'

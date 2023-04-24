@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="gradle-demo.app" target="19" />
+      <module name="gradle-demo.app.main" target="19" />
+      <module name="gradle-demo.app.test" target="19" />
+      <module name="gradle-demo.buildSrc" target="19" />
+      <module name="gradle-demo.buildSrc.main" target="19" />
+      <module name="gradle-demo.buildSrc.test" target="19" />
+      <module name="gradle-demo.list" target="19" />
+      <module name="gradle-demo.list.main" target="19" />
+      <module name="gradle-demo.list.test" target="19" />
+      <module name="gradle-demo.utilities" target="19" />
+      <module name="gradle-demo.utilities.main" target="19" />
+      <module name="gradle-demo.utilities.test" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

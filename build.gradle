@@ -1,0 +1,15 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url 'https://artifactory-oss.prod.netflix.net/artifactory/maven-oss-candidates'
+        }
+    }
+    dependencies {
+        classpath 'org.owasp:dependency-check-gradle:8.2.1'
+    }
+}
+
+subprojects {
+    apply plugin: 'org.owasp.dependencycheck'
+}
